@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap"); /* Font Roboto */
+
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #dedede;
+}
+
+.content {
+  border-radius: 0.5rem;
+  padding: 1rem;
+  background-color: #f6f8fc;
+  height: 100%;
+  width: 100%;
+}
+
+.content h1 {
+  margin: 0.5rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .content {
+    width: 768px;
+    height: auto;
+    margin: 1rem auto;
+  }
+}
